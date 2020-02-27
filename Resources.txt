@@ -1,0 +1,9 @@
+
+#GEE
+https://developers.google.com/earth-engine
+
+#Colab
+https://towardsdatascience.com/google-drive-google-colab-github-dont-just-read-do-it-5554d5824228
+
+#CNN example
+https://colab.research.google.com/github/csaybar/EEwPython/blob/master/cnn_demo.ipynb#scrollTo=jbfPqdqLbfig
