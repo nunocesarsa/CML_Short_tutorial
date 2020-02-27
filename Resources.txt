@@ -7,3 +7,12 @@ https://towardsdatascience.com/google-drive-google-colab-github-dont-just-read-d
 
 #CNN example
 https://colab.research.google.com/github/csaybar/EEwPython/blob/master/cnn_demo.ipynb#scrollTo=jbfPqdqLbfig
+
+
+https://developers.google.com/earth-engine/tutorials/community/beginners-cookbook
+Google earth channel - https://www.youtube.com/channel/UC2zHjOF9Womes-SEjdzTleA
+
+Join their mailing lists (get ready for some spam! – make a filter on your gmail).
+
+Much more advanced:
+TensorFlow: https://developers.google.com/earth-engine/tf_examples
