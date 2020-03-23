@@ -126,5 +126,15 @@ writeRaster(rst.agg.frag,"Class_Frag_s2Res.tif")
 writeRaster(rst.agg.reed,"Class_Reed_s2Res.tif")
 writeRaster(rst.agg.wate,"Class_Wate_s2Res.tif")
 
+#one simple trick to align the rasters is the following -> this is not recommended on a final model
+#the lack of aligment is happening before, probably on the ressampling of the data.
+s2.raster <- raster("S2B_MSIL2A_T31UFU_2019-12-27_RDNew.tif") 
+
+rst.agg.frag.res = resample(rst.agg.frag,s2.raster)
+rst.agg.reed.res = resample(rst.agg.reed,s2.raster)
+rst.agg.wate.res = resample(rst.agg.wate,s2.raster)
 
 
+writeRaster(rst.agg.frag.res,"Class_Frag_s2Res_res.tif")
+writeRaster(rst.agg.reed.res,"Class_Reed_s2Res_res.tif")
+writeRaster(rst.agg.wate.res,"Class_Wate_s2Res_res.tif")
